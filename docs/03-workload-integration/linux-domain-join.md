@@ -27,3 +27,15 @@ The domain controller is reached through the hybrid tunnel.
 The domain must be discoverable from the Linux server using:
 
 realm discover corp.lab
+
+## 5. Domain join
+
+The Linux server is joined to the domain using:
+
+sudo realm join corp.lab -U ayush.admin
+
+## 6. Identity validation
+
+Domain users must be resolvable through NSS:
+
+id ayush.agrawal@corp.lab
