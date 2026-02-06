@@ -21,3 +21,9 @@ The domain controller is reached through the hybrid tunnel.
 
 - linux-app-01 (Ubuntu Server 22.04)
 - DC-CLOUD-01 (Windows AD, reachable at 10.50.0.1)
+
+## 4. Pre-join validation
+
+The domain must be discoverable from the Linux server using:
+
+realm discover corp.lab
